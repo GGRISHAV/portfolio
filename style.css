@@ -210,6 +210,7 @@ body {
 .source-code {
   margin-top: 10px;
   text-align: center;
+  transition: all 0.3s ease;
 }
 
 .source-code a {
@@ -221,6 +222,7 @@ body {
 .source-code a:hover {
   color: white;
   text-shadow: 0 0 10px white;
+  transition: all 0.3s ease;
 }
 
 .fullscreen-section {

@@ -78,11 +78,10 @@
       } else if (direction === "up" && scrollY >= vh) {
         profileSection.scrollIntoView({ behavior: "smooth" });
       } else {
-        scrollLocked = false; // Unlock immediately if no scroll needed
+        scrollLocked = false;
         return;
       }
 
-      // Unlock after smooth scroll completes (~1s)
       setTimeout(() => {
         scrollLocked = false;
       }, 1000);
